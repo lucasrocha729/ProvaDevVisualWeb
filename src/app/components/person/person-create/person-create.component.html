@@ -1,0 +1,17 @@
+<div class="container">
+  <form class="form-create">
+    <label for="name">Nome</label>
+    <input class="input-text" type="text" name="name" [(ngModel)]="personCreate.fullName" />
+
+    <label for="birthdate">Data de nascimento</label>
+    <input class="input-date" type="date" name="birthdate" [(ngModel)]="personCreate.birthday" />
+
+    <label for="cpf">CPF</label>
+    <input class="input-text" type="text" name="cpf" [(ngModel)]="personCreate.cpf" />
+
+    <label for="address">Endereço</label>
+    <input class="input-text" name="address" [(ngModel)]="personCreate.address" />
+
+    <button type="submit" class="button" (click)="createPerson()">Criar</button>
+  </form>
+</div>

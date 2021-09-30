@@ -1,0 +1,22 @@
+table {
+  width: calc(100% - 80px);
+  margin: 0px 40px 40px 40px;
+  text-align: start;
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+}
+.middle-container {
+  display: flex;
+  margin: 40px;
+  justify-content: flex-end;
+}
+.new-person {
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #a10c0c;
+  text-decoration: none;
+  color: white;
+}
